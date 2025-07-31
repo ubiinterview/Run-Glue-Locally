@@ -15,7 +15,7 @@ replace C:\Users\Sanjay Bedwal\Desktop\repos\youtube\glue_playlist with your loc
 ```
 docker run -it ^
   -v "%USERPROFILE%\.aws:/home/glue_user/.aws" ^`
-  -v "C:\Users\Sanjay Bedwal\Desktop\repos\youtube\glue_playlist:/home/glue_user/workspace" ^
+  -v "D:\Run-Glue-Locally:/home/glue_user/workspace" ^
   -e AWS_PROFILE=default ^
   -e DISABLE_SSL=true ^
   --rm ^
